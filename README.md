@@ -6,3 +6,5 @@ Leetcode Solutions
 3. Binary Tree
 4. Graph
 5. Data Structure
+
+Solutions are in the corresponding branch.
