@@ -1,0 +1,14 @@
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow = head
+        fast = head
+        # use two nodes like clock hands
+        # if the slow one could meet the fast one then have a circle in the list
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            
+            if slow == fast :
+                return True
+        
+        return False
