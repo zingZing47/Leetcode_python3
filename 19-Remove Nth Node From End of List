@@ -1,0 +1,21 @@
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    # Create a dummy value at the head of the list
+    # To delete the k node form the end, is to find the k+1 position from the end, 
+    # and make it point to the next and next one value.
+        dummy = ListNode(0,head)
+        left = dummy
+        right = head
+        
+    # Let two pointers be separated by k distances  
+        while n > 0 and right:
+            right = right.next
+            n -= 1
+        
+        while right:
+            left = left.next
+            right = right.next
+    # Delete    
+        left.next = left.next.next
+        
+        return dummy.next
