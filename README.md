@@ -9,6 +9,8 @@ Summary:
    
    `Remove elements (Right & Left)
    
+   `Palindrome(Right & Left)
+   
 2. Reverse list
 
    `2 pointers:
