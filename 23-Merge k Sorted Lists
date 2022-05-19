@@ -1,0 +1,37 @@
+class Solution:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+        if not lists or len(lists) == 0: # output for the special inputs
+            return None
+        
+        while len(lists) > 1:
+            mergedLists = []
+            
+            for i in range(0,len(lists),2):
+                l1 = lists[i] # keep merging the list until len(lsists) = 1
+                l2 = lists[i+1] if (i+1) < len(lists) else None # test if i+1 still exist
+                mergedLists.append(self.mergeTwoLists(l1,l2)) # sort after merge, use the q21 founction to merge 2 lists
+            lists = mergedLists
+        return lists[0]
+    
+    # Solution of No. 21
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:#code of Q21
+        result = ListNode()
+        cur = result
+        
+        while list1 and list2: # when list1 and list2 are both not empty
+            v1 = list1.val
+            v2 = list2.val
+            if v1 < v2:
+                cur.next = list1
+                list1 = list1.next               
+            else:
+                cur.next = list2
+                list2 = list2.next            
+            cur = cur.next
+            
+        if list1: # if list1 still contains values
+            cur.next = list1
+        if list2:
+            cur.next = list2
+            
+        return result.next
