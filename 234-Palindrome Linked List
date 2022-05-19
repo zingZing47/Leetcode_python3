@@ -1,0 +1,47 @@
+Solution 1. O(n)
+class Solution:
+    def isPalindrome(self, head: Optional[ListNode]) -> bool:            
+        nums = []
+        while head:
+            nums.append(head.val)
+            head = head.next
+        
+        # set left and right position  
+        l = 0
+        r = len(nums) - 1
+        
+        while l <= r:
+            if nums[l] != nums[r]:
+                return False
+            l +=1
+            r -=1
+        return True
+
+
+Solution 2. O(1)
+class Solution:
+    def isPalindrome(self, head: Optional[ListNode]) -> bool:            
+        fast = head
+        slow = head
+        
+        # Slow pointer will be the middle of the list
+        while fast and fast.next:
+            fast = fast.next
+            fast = fast.next
+            slow = slow.next
+        # Reverse
+        prev = None
+        while slow:
+            tmp = slow.next
+            slow.next = prev
+            prev = slow
+            slow = tmp
+        # Check
+        left = head
+        right = prev
+        while right:
+            if left.val != right.val:
+                return False
+            left = left.next
+            right = right.next
+        return True
