@@ -1,0 +1,27 @@
+26.
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        if len(nums) == 0:
+            return 0
+        
+        fast = 0
+        slow = 0
+        while fast < len(nums): # maintain the original length
+            while nums[fast] != nums[slow]:
+                slow += 1 
+                nums[slow] = nums[fast]
+            fast += 1
+        return slow + 1
+        
+27.        
+ class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        cur = prev = 0
+        
+        while cur < len(nums):
+            if nums[cur] != val:
+                nums[prev] = nums[cur] # different
+                prev += 1 # exchange sequence
+            cur +=1
+            
+        return prev
