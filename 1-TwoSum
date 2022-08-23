@@ -8,3 +8,5 @@ class Solution:
                 return [preMap[diff],i]
             preMap[n] = i
         return
+
+enumerate(): a built-in function to keep a count of iterations
