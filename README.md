@@ -1,4 +1,4 @@
-# List
+# Arrays & Hashing
 
 | No.           | Name             | Num solutions| Descriptions|
 | ------------- | -----------------| -------------| -----------------|
