@@ -6,6 +6,12 @@ class Solution:
 
     # Solution 2: Time o(nlogn) Space o(n)
     ## Sort list and compare the values next to each other
+        # nums.sort()
+
+        # for i in range(len(nums)-1):
+        #     if nums[i] == nums[i+1]:
+        #         return True
+        # return False
 
 
     # Solution 3: Time o(n) Space o(n)
