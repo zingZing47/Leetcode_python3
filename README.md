@@ -1,4 +1,4 @@
-# Arrays & Hashing
+# (1) Arrays & Hashing
 
 | No.           | Name             | Num solutions| Descriptions|
 | ------------- | -----------------| -------------| -----------------|
