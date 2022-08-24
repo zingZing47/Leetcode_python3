@@ -1,0 +1,26 @@
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+    # Solution 1: Time o(n^2) Space o(1)
+    ## Use 2 pointers to compare each 2 values of the list
+
+
+    # Solution 2: Time o(nlogn) Space o(n)
+    ## Sort list and compare the values next to each other
+
+
+    # Solution 3: Time o(n) Space o(n)
+    ## Use Hashset to check if the value contains in the set
+        hashset = set()
+
+        for i in nums:
+            if i in hashset:
+                return True
+            hashset.add(i)
+        return False
+
+
+    #Solution 4: Time o(n) Space o(n)
+    ## Use the set() function in python and compare if there is difference between lengths
+        # class Solution:
+        # 	    def containsDuplicate(self, nums: List[int]) -> bool:
+        # 	        return len(nums) != len(set(nums))
