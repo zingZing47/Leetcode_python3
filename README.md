@@ -3,6 +3,7 @@
 | No.           | Name             | Num solutions| Descriptions|
 | ------------- | -----------------| -------------| -----------------|
 | 217           | Contains Duplicate| 4 | Hashset  |
+| 242           | Valid Anagram| 3 | HashMap  |
 
 
 1. List (No.2, 21, 23 141, 142, 876, 19, 160, 206, 92, 25, 234)
