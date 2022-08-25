@@ -1,0 +1,25 @@
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        # Solution 1: Hashmap, Time o(s+t) Space o(s+t)
+            if len(s) != len(t):
+                return False
+            
+            # Build hashmap
+            countS, countT = {}, {}
+
+            for i in range(len(s)):
+                # Create the key if not exist yet, default 0
+                countS[s[i]] = 1+ countS.get(s[i], 0) 
+                countT[t[i]] = 1+ countT.get(t[i], 0)
+
+            for c in countS: # c represents the keys
+                # Just in case if the key is not cotains in t
+                if countS[c] != countT.get(c, 0):
+                    return False
+            return True
+
+        # Solution 2: No extra memory, Time o(s+t)
+            # return sorted(s) ==sorted(t)
+
+        # Solution 3: counter()
+            # return Counter(s) == Counter(t)
