@@ -3,7 +3,7 @@
 | No.           | Name             | Num solutions| Descriptions| Functions|
 | ------------- | -----------------| -------------| -----------------| -------------|
 | 217           | Contains Duplicate| 4 | Hashset  | `sort()`, `set()`|
-| 242           | Valid Anagram| 3 | HashMap  | `enumerate()`|
+| 242           | Valid Anagram| 3 | HashMap  | `enumerate()`, `counter()`|
 
 # (1) Two pointers
 
