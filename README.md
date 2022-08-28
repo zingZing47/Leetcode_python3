@@ -5,7 +5,7 @@
 | 217           | Contains Duplicate| 4 | Hashset  | `sort()`, `set()`|
 | 242           | Valid Anagram| 3 | HashMap  | `enumerate()`, `counter()`|
 
-# (1) Two pointers
+# (2) Two pointers
 
 | No.           | Name             | Num solutions| Descriptions     |Functions     |
 | ------------- | -----------------| -------------| -----------------| -------------|
@@ -13,7 +13,11 @@
 | 125           | Valid Palindrome | 2            | 2 pointers       | `isalnum()` |
 
 
+# (0) Others
 
+| No.           | Name             | Num solutions| Descriptions     |Functions     |
+| ------------- | -----------------| -------------| -----------------| -------------|
+| 172            | Factorial Trailing Zeroes    | 1            |the number of factorial trailing 0 = //5| - |
 
 1. List (No.2, 21, 23 141, 142, 876, 19, 160, 206, 92, 25, 234)
 2. Array (No. 26, 83, 27, 283, 167, 344, 5)
