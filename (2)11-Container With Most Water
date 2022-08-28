@@ -1,0 +1,21 @@
+# Solution: 2 pointers
+# Time: O(n), Space: O(1)
+class Solution:
+    def maxArea(self, height: List[int]) -> int:
+        res = 0
+        # Start with the max width
+        l = 0
+        r = len(height) - 1
+
+        while l < r:
+            area = (r - l) * min(height[l], height[r])
+            # update as the largest area
+            res = max(res, area)
+            
+            # Move the pointer with lower value
+            if height[l] >= height[r]:
+                r -= 1
+            else:
+                l += 1
+        return res
+
