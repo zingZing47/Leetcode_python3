@@ -1,3 +1,4 @@
+# Time: O(logn) Space: O(1)
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         res = 0 # Record how many 5 quality factors are contained
