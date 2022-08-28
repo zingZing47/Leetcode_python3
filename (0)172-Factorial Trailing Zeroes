@@ -1,0 +1,8 @@
+class Solution:
+    def trailingZeroes(self, n: int) -> int:
+        res = 0 # Record how many 5 quality factors are contained
+        while n:
+            num = n // 5 # Floor division
+            res += num
+            n = n//5
+        return res
