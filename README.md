@@ -11,9 +11,10 @@
 | ------------- | -----------------| -------------| -----------------| -------------|
 | 11            | Container With Most Water | 1            | 2 pointers: Move the smaller one| - |
 | 15            | 3Sum             | 1            | 2 pointers + HashMap| `sort()`, `enumerate()`, `append()` |
+| 42            | Trapping Rain Water| 1          | 2 pointers:similar to No.11  | - |
 | 125           | Valid Palindrome | 2            | 2 pointers       | `isalnum()` |
 
-
+(2)42-Trapping Rain Water
 # (0) Others
 
 | No.           | Name             | Num solutions| Descriptions     |Functions     |
