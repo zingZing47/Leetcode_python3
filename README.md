@@ -14,7 +14,15 @@
 | 42            | Trapping Rain Water| 1          | 2 pointers:similar to No.11  | - |
 | 125           | Valid Palindrome | 2            | 2 pointers       | `isalnum()` |
 
-(2)42-Trapping Rain Water
+
+# (3) Sliding Window
+
+| No.           | Name                              | Num solutions| Descriptions     |Functions     |
+| ------------- | -------------------------------| -------------| -----------------| -------------|
+| 121            |Best Time to Buy and Sell Stock| 1            | 2 pointers l=r    | - |
+
+
+
 # (0) Others
 
 | No.           | Name             | Num solutions| Descriptions     |Functions     |
