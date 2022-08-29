@@ -22,6 +22,8 @@
 | No.           | Name                              | Num solutions| Descriptions     |Functions     |
 | ------------- | -------------------------------| -------------| -----------------| -------------|
 | 121            |Best Time to Buy and Sell Stock| 1            | 2 pointers l=r    | - |
+| 3             |Longest Substring Without Repeating Characters| 1   | 2 pointers + set: use while not if | charset = `set()` |
+
 
 
 
