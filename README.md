@@ -5,6 +5,7 @@
 | 217           | Contains Duplicate| 4 | Hashset  | `sort()`, `set()`|
 | 242           | Valid Anagram| 3 | HashMap  | `enumerate()`, `counter()`|
 
+
 # (2) Two pointers
 
 | No.           | Name             | Num solutions| Descriptions     |Functions     |
@@ -13,6 +14,7 @@
 | 15            | 3Sum             | 1            | 2 pointers + HashMap| `sort()`, `enumerate()`, `append()` |
 | 42            | Trapping Rain Water| 1          | 2 pointers:similar to No.11  | - |
 | 125           | Valid Palindrome | 2            | 2 pointers       | `isalnum()` |
+| 1470           | Shuffle the Array | 1            | 2 pointers       | - |
 
 
 # (3) Sliding Window
