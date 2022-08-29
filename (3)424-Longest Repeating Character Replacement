@@ -1,0 +1,18 @@
+class Solution:
+# Time: O(n)for one time iteration, Space:O(n) for the hashmap
+    def characterReplacement(self, s: str, k: int) -> int:
+        count = {} # build a hashmap to count the repeating times
+        res = 0 # initial the result
+
+        l = 0 # left pointer starts at the 1st value
+        maxf = 0
+        for r in range(len(s)):
+            count[s[r]] = 1 + count.get(s[r], 0) # char is the key, create new key if it is not exist yest
+            maxf = max(maxf, count[s[r]]) # the max appearing times of one char 
+
+            if (r - l + 1) - maxf > k: # if exceed the tolerance
+                count[s[l]] -= 1 # minus the initial one
+                l += 1 # move the left pointer
+
+            res = max(res, r - l + 1)
+        return res
