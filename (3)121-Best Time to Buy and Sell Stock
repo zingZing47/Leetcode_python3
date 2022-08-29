@@ -1,0 +1,16 @@
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        # Solution 1: 2 Pointers
+        # Time: O(n) Space: O(1)
+        l,r = 0,1    # left = buy, right = sell
+        maxP = 0    # initial the max price as 0
+
+        while r < len(prices):
+            # profitable?
+            if prices[l] < prices[r] :
+                profit = prices[r] - prices[l]
+                maxP = max(maxP, profit)
+            else:
+                l = r  # IMPORTANT: move the l to the lower value
+            r += 1
+        return maxP
