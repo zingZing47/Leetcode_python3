@@ -1,0 +1,17 @@
+# Time: O(m*n), m = number of strings, n = avg length of strings, Space: O()
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        # defaultdict is created with the values that are list
+        # defaultdict never raises a KeyError
+        res = defaultdict (list)
+
+        for s in strs:
+        # Create a list for each strings to count the frequency of 26 characters
+            count = [0] * 26
+            for c in s:
+            # all strings are in the lowercase, minus ord('a') to star from 0
+                count[ord(c) - ord('a')] += 1
+            # tuple -> (unique and immutable) -> keys of dict
+            res[tuple(count)].append(s)
+        # covert to the list type as the output
+        return list(res.values())
