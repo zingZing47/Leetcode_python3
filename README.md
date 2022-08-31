@@ -2,6 +2,7 @@
 
 | No.           | Name             | Num solutions| Descriptions| Functions|
 | ------------- | -----------------| -------------| -----------------| -------------|
+| 49           | Group Anagram| 1 | DefaultDictionary  | `defaultdict()`, `tuple()`,`count = [0] * 26`|
 | 217           | Contains Duplicate| 4 | Hashset  | `sort()`, `set()`|
 | 242           | Valid Anagram| 3 | HashMap  | `enumerate()`, `counter()`|
 
