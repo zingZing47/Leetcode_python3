@@ -33,7 +33,10 @@
 
 | No.           | Name             | Num solutions| Descriptions     |Functions     |
 | ------------- | -----------------| -------------| -----------------| -------------|
-| 172            | Factorial Trailing Zeroes    | 1            |the number of factorial trailing 0 = //5| - |
+| 172            | Factorial Trailing Zeroes    | 1    |the number of factorial trailing 0 = //5| - |
+| 45           | Jump Game II    | 1            |Greedy| - |
+
+
 
 1. List (No.2, 21, 23 141, 142, 876, 19, 160, 206, 92, 25, 234)
 2. Array (No. 26, 83, 27, 283, 167, 344, 5)
