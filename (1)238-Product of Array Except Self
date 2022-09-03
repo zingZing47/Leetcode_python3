@@ -1,9 +1,9 @@
 # Solution:
-# Calculate prefixs and postfixs for each values
-# Multiple prefixs and postfixs -> result
-# BUT it could be optimized by iterate the input array 2 times
-# 1. from the starter and store them in the output
-@ 2. product the prefixs with the postfixs directly
+	# Calculate prefixes and postfixes for each value.
+	# Product prefixes and postfixes -> outcome
+	# BUT it could be optimized by iterating the input array 2 times.
+	# 1. from the starter and store them in the output
+	@ 2. product the prefixs with the postfixs directly
 
 # Time: O(n) Space: O(1)
 class Solution:
