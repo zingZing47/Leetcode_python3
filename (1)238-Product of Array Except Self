@@ -1,0 +1,21 @@
+# Solution:
+# Calculate prefixs and postfixs for each values
+# Multiple prefixs and postfixs -> result
+# BUT it could be optimized by iterate the input array 2 times
+# 1. from the starter and store them in the output
+@ 2. product the prefixs with the postfixs directly
+
+# Time: O(n) Space: O(1)
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        pre = 1
+        end = 1
+        output = [1] * len(nums)
+
+        for i in range(len(nums)):
+            output[i] = pre
+            pre = pre * nums[i]
+        for i in range(len(nums)-1 ,-1,-1):
+            output[i] = output[i] * end
+            end = end * nums[i]
+        return output
