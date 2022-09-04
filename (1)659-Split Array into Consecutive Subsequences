@@ -1,7 +1,7 @@
 class Solution:
     def isPossible(self, nums: List[int]) -> bool:
         freq = collections.Counter(nums)
-        req = collections.Counter()
+        req = collections.Counter() # or req = collections.defaultdict(int) similar but faster
 
         # 1. Check if could add to the previous subsequences
         # 2. Creat a new length = 3 subsequence
