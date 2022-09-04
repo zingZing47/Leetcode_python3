@@ -8,7 +8,7 @@
 | 238           | Product of Array Except Self| 2 | -  | -|
 | 242           | Valid Anagram| 3 | HashMap  | `enumerate()`, `counter()`|
 | 347           | Top K Frequent Elements| 1 | HashMap+Array  | `get()`, `items()`|
-| 659           | Split Array into Consecutive Subsequences| 1 | Counte | `collections.Counter()`|
+| 659           | Split Array into Consecutive Subsequences| 1 | hashmap | `collections.Counter()` or `defaultdict(int)`|
 
 
 # (2) Two pointers
