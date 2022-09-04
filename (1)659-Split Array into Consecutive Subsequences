@@ -1,0 +1,22 @@
+class Solution:
+    def isPossible(self, nums: List[int]) -> bool:
+        freq = collections.Counter(nums)
+        req = collections.Counter()
+
+        # 1. Check if could add to the previous subsequences
+        # 2. Creat a new length = 3 subsequence
+        for n in nums:
+            if freq[n] == 0:
+                continue
+            if req[n] > 0:
+                freq[n] -= 1
+                req[n] -= 1
+                req[n+1] = 1+ req.get(n+1,0)
+            elif freq[n] > 0 and freq[n+1] > 0 and freq[n+2] > 0:
+                freq[n] -= 1
+                freq[n+1] -= 1
+                freq[n+2] -= 1
+                req[n+3] = 1+ req.get(n+3,0)
+            else:
+                return False
+        return True
