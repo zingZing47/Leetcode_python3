@@ -29,10 +29,10 @@
 
 | No.           | Name                              | Num solutions| Descriptions     |Functions     |
 | ------------- | -------------------------------| -------------| -----------------| -------------|
-| 121            |Best Time to Buy and Sell Stock| 1            | 2 pointers l=r    | - |
 | 3             |Longest Substring Without Repeating Characters| 1   | 2 pointers + set: use while not if | charset = `set()` |
+| 121            |Best Time to Buy and Sell Stock| 1            | 2 pointers l=r    | - |
 | 424         |Longest Repeating Character Replacement| 1   | 2 pointers + HashMap | count.get(s[r], 0)|
-
+| 567         |Permutation in String| 1   | 2 pointers + index | `ord()`, `[0]* 26`|
 
 
 
