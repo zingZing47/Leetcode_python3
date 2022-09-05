@@ -1,0 +1,26 @@
+class Solution:
+    def isValid(self, s: str) -> bool:
+        if len(s) % 2 == 1:
+            return False
+        stack = []
+
+        # Create hashmap for pairs
+        co = {
+            ")": "(",
+            "}" : "{",
+            "]" : "["
+        }
+
+        for c in s:
+            # If the c is a close bracket(key of the hashmap)
+            if c in co:
+                # If the stack is not empty
+                # and the top value is matching co
+                if stack and stack[-1] == co[c]:
+                    stack.pop()
+                else: # If empty or no matching co
+                    return False
+            else:
+                stack.append(c)
+        
+        return not stack
