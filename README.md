@@ -7,8 +7,11 @@
 | 217           | Contains Duplicate| 4 | Hashset  | `sort()`, `set()`|
 | 238           | Product of Array Except Self| 2 | -  | -|
 | 242           | Valid Anagram| 3 | HashMap  | `enumerate()`, `counter()`|
+| 271           | Encode and Decode Strings| 1 | Record the length of each string  | str(len(i)) + "#" + i|
 | 347           | Top K Frequent Elements| 1 | HashMap+Array  | `get()`, `items()`|
 | 659           | Split Array into Consecutive Subsequences| 1 | hashmap | `collections.Counter()` or `defaultdict(int)`|
+
+
 
 
 # (2) Two pointers
