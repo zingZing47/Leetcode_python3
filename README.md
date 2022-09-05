@@ -4,13 +4,13 @@
 | ------------- | -----------------| -------------| -----------------| -------------|
 | 36           | Valid Sudoku| 1 | DefaultDictionary  | `defaultdict()`, `board[r][c]`|
 | 49           | Group Anagram| 1 | DefaultDictionary  | `defaultdict()`, `tuple()`,`count = [0] * 26`|
+| 128           |Longest Consecutive Sequence| 1 | set, length = y-n  | `set()`|
 | 217           | Contains Duplicate| 4 | Hashset  | `sort()`, `set()`|
 | 238           | Product of Array Except Self| 2 | -  | -|
 | 242           | Valid Anagram| 3 | HashMap  | `enumerate()`, `counter()`|
 | 271           | Encode and Decode Strings| 1 | Record the length of each string  | str(len(i)) + "#" + i|
 | 347           | Top K Frequent Elements| 1 | HashMap+Array  | `get()`, `items()`|
 | 659           | Split Array into Consecutive Subsequences| 1 | hashmap | `collections.Counter()` or `defaultdict(int)`|
-
 
 
 
