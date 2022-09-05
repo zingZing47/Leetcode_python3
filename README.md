@@ -10,7 +10,7 @@
 | 242           | Valid Anagram| 3 | HashMap  | `enumerate()`, `counter()`|
 | 271           | Encode and Decode Strings| 1 | Record the length of each string  | str(len(i)) + "#" + i|
 | 347           | Top K Frequent Elements| 1 | HashMap+Array  | `get()`, `items()`|
-| 659           | Split Array into Consecutive Subsequences| 1 | hashmap | `collections.Counter()` or `defaultdict(int)`|
+| 659           | Split Array into Consecutive Subsequences| 1 | Hashmap | `collections.Counter()` or `defaultdict(int)`|
 
 
 
@@ -33,6 +33,14 @@
 | 121            |Best Time to Buy and Sell Stock| 1            | 2 pointers l=r    | - |
 | 424         |Longest Repeating Character Replacement| 1   | 2 pointers + HashMap | count.get(s[r], 0)|
 | 567         |Permutation in String| 1   | 2 pointers + index | `ord()`, `[0]* 26`|
+
+
+# (4) Stack
+
+| No.     | Name             | Num solutions| Descriptions| Functions|
+| --------| -----------------| -------------| -----------------| -------------|
+| 20      | Valid Parentheses| 1            | Hashmap+Stack  | `stack = []`, `pop()`, `append()`|
+
 
 
 
