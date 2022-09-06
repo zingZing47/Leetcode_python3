@@ -40,6 +40,7 @@
 | No.     | Name             | Num solutions| Descriptions| Functions|
 | --------| -----------------| -------------| -----------------| -------------|
 | 20      | Valid Parentheses| 1            | Hashmap+Stack  | `stack = []`, `pop()`, `append()`|
+| 150     | Evaluate Reverse Polish Notation   | 1  | Stack  |  `pop()`, `append()`, 5 cases|
 | 155     | Min Stack        | 1            | 2* Stack  | `self.stack = []`, `pop()`, `append()`|
 
 
