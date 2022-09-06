@@ -1,0 +1,21 @@
+# Time: O(2n), Space: O(n)
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        cal = []
+
+        for c in tokens:
+        # 5 cases: 4 operators or number
+            if c == "+":
+                cal.append(int(cal.pop() + cal.pop()))
+            elif c == "*":
+                cal.append(int(cal.pop() * cal.pop()))
+            elif c == "-":
+                a, b = cal.pop(), cal.pop()
+                cal.append(int(b - a))
+            elif c == "/":
+                a, b = cal.pop(), cal.pop()
+                cal.append(int(b / a))
+            # number
+            else:
+                cal.append(int(c))
+        return cal[0]
