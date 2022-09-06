@@ -40,6 +40,7 @@
 | No.     | Name             | Num solutions| Descriptions| Functions|
 | --------| -----------------| -------------| -----------------| -------------|
 | 20      | Valid Parentheses| 1            | Hashmap+Stack  | `stack = []`, `pop()`, `append()`|
+| 155     | Min Stack        | 1            | 2* Stack  | `self.stack = []`, `pop()`, `append()`|
 
 
 
@@ -48,8 +49,9 @@
 
 | No.           | Name             | Num solutions| Descriptions     |Functions     |
 | ------------- | -----------------| -------------| -----------------| -------------|
-| 172            | Factorial Trailing Zeroes    | 1    |the number of factorial trailing 0 = //5| - |
 | 45           | Jump Game II    | 1            |Greedy| - |
+| 172            | Factorial Trailing Zeroes    | 1    |the number of factorial trailing 0 = //5| - |
+
 
 
 
