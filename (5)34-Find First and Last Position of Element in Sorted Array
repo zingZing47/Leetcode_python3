@@ -1,0 +1,45 @@
+class Solution:
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        if len(nums) == 0 or nums[0] > target or nums[-1] < target:
+            return [-1,-1]
+                
+        def leftSearch(nums: List[int], target: int) -> List[int]:
+            l,r = 0, len(nums)-1 # [close,close] 
+            # make left pointer not across the right pionter
+            while l <= r:
+            # aviod out of range
+                m = l + (r-l) // 2
+                if nums[m] > target:
+                    r = m-1
+                elif nums[m] < target:
+                    l = m+1
+                elif nums[m] == target:
+                    r = m-1 # keep searching if there is same value on the left
+            if nums[l] == target:
+                return l
+            else:
+                return -1
+    
+        def rightSearch(nums:List[int], target:int) -> List[int]:
+            l,r = 0, len(nums)-1  # [close,close] 
+            while l <=r:
+                m = l + (r-l) // 2
+                if nums[m] > target:
+                    r = m-1
+                elif nums[m] < target:
+                    l = m+1
+                else:
+                    l = m+1
+            if nums[r] == target:
+                return r # keep searching if there is same value on the right
+            else:
+                return -1
+    
+
+        li = leftSearch(nums, target)
+        ri = rightSearch(nums, target)
+
+        if li <= ri:
+            return[li,ri]
+
+                
