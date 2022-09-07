@@ -1,0 +1,37 @@
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        if len(nums) == 0 or nums[0] > target or nums[-1] < target:
+            return 0
+
+        def rightserach(nums:List[int], target:int) -> int:
+            l,r = 0, len(nums)-1
+
+            while l <= r:
+                m = l + (r-l) //2
+                if nums[m] == target:
+                    l = m+1 # IMPORTANT: when equal, left pointer move to the right
+                if nums[m] < target:
+                    l = m+1
+                if nums[m] > target:
+                    r = m-1
+            return r # Return right!!!
+
+        def leftsearch(nums:List[int], target:int) -> int:
+            l,r = 0, len(nums)-1
+
+            while l <= r:
+                m = l + (r-l) //2
+                if nums[m] == target:
+                    r = m-1 # IMPORTANT
+                if nums[m] < target:
+                    l = m+1
+                if nums[m] > target:
+                    r = m-1
+            return l # Return left!!
+
+        ls = leftsearch(nums, target)
+        rs = rightserach(nums, target)
+
+
+        return rs - ls + 1
+
