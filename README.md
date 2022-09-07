@@ -49,8 +49,8 @@
 
 | No.     | Name             | Num solutions| Descriptions     | Functions|
 | --------| -----------------| -------------| -----------------| -------------|
+| 34      | Find First and Last Position of Element in Sorted Array    | 1   | rightMargin & leftMargin | `nums[r] == target`keep searching|
 | 704     | Binary Search    | 1            | 2 Pointer        | `while l <= r`, `m = l + (r-l)// 2`|
-
 
 
 
