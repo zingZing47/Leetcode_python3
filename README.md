@@ -45,6 +45,14 @@
 | 155     | Min Stack        | 1            | 2* Stack  | `self.stack = []`, `pop()`, `append()`|
 
 
+# (5) Binary Search
+
+| No.     | Name             | Num solutions| Descriptions     | Functions|
+| --------| -----------------| -------------| -----------------| -------------|
+| 704     | Binary Search    | 1            | 2 Pointer        | `while l <= r`, `m = l + (r-l)// 2`|
+
+
+
 
 # (0) Others
 
