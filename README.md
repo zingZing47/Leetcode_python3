@@ -51,6 +51,7 @@
 | --------| -----------------| -------------| -----------------| -------------|
 | 34      | Find First and Last Position of Element in Sorted Array    | 1   | rightMargin & leftMargin | `nums[r] == target`keep searching|
 | 704     | Binary Search    | 1            | 2 Pointer        | `while l <= r`, `m = l + (r-l)// 2`|
+| StoO 53 | Finding Numbers in Sorted Arrays I   | 1   | rightMargin & leftMargin: !return potiner  | length= rs - ls + 1|
 
 
 
