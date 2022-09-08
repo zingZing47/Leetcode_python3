@@ -1,0 +1,10 @@
+# Under ACM mode
+ipt = input()
+ipt = str(ipt)[::-1]
+num = []
+for i in ipt:
+    if i in num:
+        continue
+    else:
+        num.append(i)
+print(''.join(num))
