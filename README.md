@@ -59,7 +59,8 @@
 
 | No.           | Name             | Num solutions| Descriptions     |Functions     |
 | ------------- | -----------------| -------------| -----------------| -------------|
-| 45           | Jump Game II    | 1            |Greedy| - |
+| 9            | Palindrome Number | 3            |String            | invert = invert*10 + n//10 |
+| 45           | Jump Game II      | 1            |Greedy| - |
 | 172            | Factorial Trailing Zeroes    | 1    |the number of factorial trailing 0 = //5| - |
 
 
