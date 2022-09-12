@@ -66,9 +66,10 @@
 | 9            | Palindrome Number | 3            |String            | invert = invert*10 + n//10 |
 | 45           | Jump Game II      | 1            |Greedy| - |
 | 172            | Factorial Trailing Zeroes    | 1    |the number of factorial trailing 0 = //5| - |
+| 692            | Top K Frequent Words   | 1    |Samilar to 347| `collections.Counter()`, `sorted(list, key=lamda x:(-cnt[x], x))[:k]` |
 
 
-
+692. 
 
 1. List (No.2, 21, 23 141, 142, 876, 19, 160, 206, 92, 25, 234)
 2. Array (No. 26, 83, 27, 283, 167, 344, 5)
