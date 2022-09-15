@@ -1,0 +1,34 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+# TIME: O(n), SAPCE: O(1)
+#         self.val = val
+#         self.next = next
+class Solution:
+    def reorderList(self, head: Optional[ListNode]) -> None:
+        """
+        Do not return anything, modify head in-place instead.
+        """
+        s = head
+        f = head.next
+        # Move f to the last node, move s to the middle
+        while f and f.next:
+            s = s.next
+            f = f.next.next
+
+        second = s.next
+        prev = s.next = None #IMPORTANT, break the node for the end of the first list
+        # Reverse
+        while second:
+            nxt = second.next
+            second.next = prev
+            prev = second
+            second = nxt
+        # Merge 2 linknode
+        first = head #IMPROTANT, set new pointers
+        second = prev # prev pointer!
+        while second:
+            tmp1, tmp2 = first.next, second.next # record the next positions for each list
+            first.next = second
+            second.next = tmp1
+            first,second = tmp1, tmp2 # move pointers to the next nodes
