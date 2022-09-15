@@ -63,9 +63,10 @@
 
 | No.     | Name             | Num solutions| Descriptions     | Functions|
 | --------| -----------------| -------------| -----------------| -------------|
+| 19       |  Remove Nth Node From End of List  | reverse or locate the target node with l&r | `dummy = ListNode(0,head)`|
 | 143      |  Reorder List| 1   | Medium, reverse+merge | `prev = s.next = None`, build new pointers for eeach step |
 
-143. Reorder List
+
 
 
 
