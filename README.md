@@ -59,6 +59,16 @@
 
 
 
+# (6) Linked List
+
+| No.     | Name             | Num solutions| Descriptions     | Functions|
+| --------| -----------------| -------------| -----------------| -------------|
+| 143      |  Reorder List| 1   | Medium, reverse+merge | `prev = s.next = None`, build new pointers for eeach step |
+
+143. Reorder List
+
+
+
 # (0) Others
 
 | No.           | Name             | Num solutions| Descriptions     |Functions     |
