@@ -65,9 +65,9 @@
 | --------| -----------------| -------------| -----------------| -------------|
 | 2       |  Add Two Numbers | carry = val // 10 | `v1 = l1.val if l1 else 0`, `l1 = l1.next if l1 else None`|
 | 19       |  Remove Nth Node From End of List  | reverse or locate the target node with l&r | `dummy = ListNode(0,head)`|
+| 138      | Copy List with Random Pointer  | hashmap: copy and link nodes | `copy = Node(cur.val)`|
 | 141       | Linked List Cycle | fast&slow pointers | `dummy = ListNode(0,head)`|
 | 143      |  Reorder List| 1   | Medium, reverse+merge | - |
-
 
 
 
