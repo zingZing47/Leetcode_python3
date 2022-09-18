@@ -66,9 +66,9 @@
 | 2       |  Add Two Numbers | 1   | carry = val // 10 | `v1 = l1.val if l1 else 0`, `l1 = l1.next if l1 else None`|
 | 19       |  Remove Nth Node From End of List  |1   | reverse or locate the target node with l&r | `dummy = ListNode(0,head)`|
 | 138      | Copy List with Random Pointer  |1   | hashmap: copy and link nodes | `copy = Node(cur.val)`|
-| 141       | Linked List Cycle |1   | fast&slow pointers | `dummy = ListNode(0,head)`|
-| 143      |  Reorder List| | 1   | Medium, reverse+merge | - |
-| 287      |  Find the Duplicate Number| | 1   | LIST, Floyd's : Cycle, fast+slow & slow+slow2 | `fast = nums[nums[fast]]` |
+| 141      | Linked List Cycle |1   | fast&slow pointers | `dummy = ListNode(0,head)`|
+| 143      |  Reorder List | 1   | Medium, reverse+merge | - |
+| 287      |  Find the Duplicate Number | 1   | LIST, Floyd's : Cycle, fast+slow & slow+slow2 | `fast = nums[nums[fast]]` |
 
 
 
