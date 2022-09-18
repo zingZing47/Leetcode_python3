@@ -68,6 +68,8 @@
 | 138      | Copy List with Random Pointer  |1   | hashmap: copy and link nodes | `copy = Node(cur.val)`|
 | 141       | Linked List Cycle |1   | fast&slow pointers | `dummy = ListNode(0,head)`|
 | 143      |  Reorder List| | 1   | Medium, reverse+merge | - |
+| 287      |  Find the Duplicate Number| | 1   | LIST, Floyd's : Cycle, fast+slow & slow+slow2 | `fast = nums[nums[fast]]` |
+
 
 
 
