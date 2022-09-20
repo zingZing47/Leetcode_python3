@@ -77,8 +77,8 @@
 
 | No.     | Name             | Num solutions| Descriptions     | Functions|
 | --------| -----------------| -------------| -----------------| -------------|
+| 104     |  Maximum Depth of Binary Tree | 3        | Good question to learn DFS, BFS | `stack[]`,`deque()`,`q.popleft()`|
 | 226     |  Invert Binary Tree | 1         | Switch right and left | `self.invertTree()`|
-
 
 
 
