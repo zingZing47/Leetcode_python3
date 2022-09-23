@@ -94,10 +94,6 @@
 | 692            | Top K Frequent Words   | 1    |Samilar to 347| `collections.Counter()`, `sorted(list, key=lamda x:(-cnt[x], x))[:k]` |
 
 
-692. 
 
-1. List (No.2, 21, 23 141, 142, 876, 19, 160, 206, 92, 25, 234)
-2. Array (No. 26, 83, 27, 283, 167, 344, 5)
-3. Binary Tree
-4. Graph
-5. Data Structure
+· Deque: Doubly Ended Queue, suitable when need quicker append and pop operations from both the ends of the container. 
+  Time: O(1) for pop and append operations
