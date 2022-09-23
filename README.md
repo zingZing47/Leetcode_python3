@@ -95,7 +95,10 @@
 
 
 
-· Deque: Doubly Ended Queue, suitable when need quicker append and pop operations from both the ends of the container. 
+
+# Data Structures
+## Deque
+· Doubly Ended Queue, suitable when need quicker append and pop operations from both the ends of the container. 
 
   Time: O(1) for pop and append operations
   
