@@ -96,4 +96,9 @@
 
 
 · Deque: Doubly Ended Queue, suitable when need quicker append and pop operations from both the ends of the container. 
+
   Time: O(1) for pop and append operations
+  
+  `index(ele, beg, end)`, `insert(i, a)` a is the element, i is the position, `remove()`removes the first occurrence of the selected value
+  
+  `append()` add on the right, `appendleft()`; `pop()` remove from the left, `popleft()`
