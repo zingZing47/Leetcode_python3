@@ -78,6 +78,7 @@
 | No.     | Name             | Num solutions| Descriptions     | Functions|
 | --------| -----------------| -------------| -----------------| -------------|
 | 100     |  Same Tree | 1   | reverse | `self.isSameTree(p.left, q.left)`|
+| 102     |  Binary Tree Level Order Traversal | 1   | BFS | `collections.deque()`|
 | 104     |  Maximum Depth of Binary Tree | 3  | Good question to learn DFS, BFS | `stack[]`,`deque()`,`append()`on the right of queue,`q.popleft()`|
 | 107     |  Binary Tree Level Order Traversal II | 1   | iterate + reverse | `res[::-1]`|
 | 110     |  Balanced Binary Tree | 1 recursive DFS| [bool, height] | - |
