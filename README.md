@@ -82,6 +82,7 @@
 | 107     |  Binary Tree Level Order Traversal II | 1   | iterate + reverse | `res[::-1]`|
 | 110     |  Balanced Binary Tree | 1 recursive DFS| [bool, height] | - |
 | 226     |  Invert Binary Tree | 1         | Switch right and left | `self.invertTree()`|
+| 235     |  Lowest Common Ancestor of a Binary Search Tree | 1         | smaller go right, bigger go left | -|
 | 572     |  Subtree of Another Tree | 1         | Check same tree? subtree? | `self.isSameTree()`|
 | 543     |  Diameter of Binary Tree | 1   | Start form bottom, update height+diameter | |
 
