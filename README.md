@@ -77,6 +77,7 @@
 
 | No.     | Name             | Num solutions| Descriptions     | Functions|
 | --------| -----------------| -------------| -----------------| -------------|
+| 98     |  Validate Binary Search Tree | 1   | iterate DFS | `float("-inf")`|
 | 100     |  Same Tree | 1   | reverse | `self.isSameTree(p.left, q.left)`|
 | 102     |  Binary Tree Level Order Traversal | 1   | BFS | `collections.deque()`|
 | 104     |  Maximum Depth of Binary Tree | 3  | Good question to learn DFS, BFS | `stack[]`,`deque()`,`append()`on the right of queue,`q.popleft()`|
