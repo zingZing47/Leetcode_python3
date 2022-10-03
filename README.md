@@ -35,6 +35,8 @@
 | 567         |Permutation in String| 1   | 2 pointers + index | `ord()`, `[0]* 26`|
 
 
+
+
 # (4) Stack
 
 | No.     | Name             | Num solutions| Descriptions| Functions|
@@ -43,6 +45,8 @@
 | 22      | Generate Parentheses| 1         | Stack+function  | `stack = []`|
 | 150     | Evaluate Reverse Polish Notation   | 1  | Stack  |  `pop()`, `append()`, 5 cases|
 | 155     | Min Stack        | 1            | 2* Stack  | `self.stack = []`, `pop()`, `append()`|
+
+
 
 
 # (5) Binary Search
@@ -84,10 +88,12 @@
 | 107     |  Binary Tree Level Order Traversal II | 1   | iterate + reverse | `res[::-1]`|
 | 110     |  Balanced Binary Tree | 1 recursive DFS| [bool, height] | - |
 | 226     |  Invert Binary Tree | 1         | Switch right and left | `self.invertTree()`|
-| 235     |  Lowest Common Ancestor of a Binary Search Tree | 1         | smaller go right, bigger go left | -|
+| 230     |  Kth Smallest Element in a BST | 1         | Switch right and left | `self.invertTree()`|
+| 235     |  Lowest Common Ancestor of a Binary Search Tree | 1         | iterative | frist left then right|
 | 572     |  Subtree of Another Tree | 1         | Check same tree? subtree? | `self.isSameTree()`|
 | 543     |  Diameter of Binary Tree | 1   | Start form bottom, update height+diameter | |
 | 1448     | Count Good Nodes in Binary Tree | 1   | DFS |`res = 1 if node.val >= maxVal else 0` |
+
 
 
 
