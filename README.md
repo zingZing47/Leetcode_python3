@@ -85,6 +85,7 @@
 | 100     |  Same Tree | 1   | reverse | `self.isSameTree(p.left, q.left)`|
 | 102     |  Binary Tree Level Order Traversal | 1   | BFS | `collections.deque()`|
 | 104     |  Maximum Depth of Binary Tree | 3  | Good question to learn DFS, BFS | `stack[]`,`deque()`,`append()`on the right of queue,`q.popleft()`|
+| 105     | Construct Binary Tree from Preorder and Inorder Traversal | 1   | building a tree basded on preorder and inorder | `mid = inorder.index(preorder[0])`|
 | 107     |  Binary Tree Level Order Traversal II | 1   | iterate + reverse | `res[::-1]`|
 | 110     |  Balanced Binary Tree | 1 recursive DFS| [bool, height] | - |
 | 226     |  Invert Binary Tree | 1         | Switch right and left | `self.invertTree()`|
@@ -94,7 +95,7 @@
 | 543     |  Diameter of Binary Tree | 1   | Start form bottom, update height+diameter | |
 | 1448     | Count Good Nodes in Binary Tree | 1   | DFS |`res = 1 if node.val >= maxVal else 0` |
 
-
+105. Construct Binary Tree from Preorder and Inorder Traversal
 
 
 # (0) Others
