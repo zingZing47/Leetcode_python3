@@ -45,6 +45,8 @@
 | 22      | Generate Parentheses| 1         | Stack+function  | `stack = []`|
 | 150     | Evaluate Reverse Polish Notation   | 1  | Stack  |  `pop()`, `append()`, 5 cases|
 | 155     | Min Stack        | 1            | 2* Stack  | `self.stack = []`, `pop()`, `append()`|
+| 739     | Daily Temperatures  | 1         | stack((t,i))  |  `res[stackC] = i - stackC`, `enumerate()`|
+
 
 
 
