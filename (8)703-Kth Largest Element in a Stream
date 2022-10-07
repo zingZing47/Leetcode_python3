@@ -1,16 +1,22 @@
 class KthLargest:
-
+    # Time: (n-k)O(logn)
     def __init__(self, k: int, nums: List[int]):
+        # minheao with k largest integers
+        # define the member variable
         self.minheap, self.k = nums, k 
+        # sort
         heapq.heapify(self.minheap)
+        # if the length bigger than k, then pop the smallest integer
         while len(self.minheap) > k:
             heapq.heappop(self.minheap)
 
-
+    # Time: O(logn)
     def add(self, val: int) -> int:
         heapq.heappush(self.minheap, val)
+        # if >= k, then do not pop
         if len(self.minheap) > self.k:
             heapq.heappop(self.minheap)
+        # return the minimum value
         return self.minheap[0]
 
 
