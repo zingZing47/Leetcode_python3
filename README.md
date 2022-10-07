@@ -97,7 +97,16 @@
 | 543     |  Diameter of Binary Tree | 1   | Start form bottom, update height+diameter | |
 | 1448     | Count Good Nodes in Binary Tree | 1   | DFS |`res = 1 if node.val >= maxVal else 0` |
 
-105. Construct Binary Tree from Preorder and Inorder Traversal
+
+
+# (8) Heap
+
+| No.     | Name             | Num solutions| Descriptions     | Functions|
+| --------| -----------------| -------------| -----------------| -------------|
+| 703     |  Kth Largest Element in a Stream | 1   | | ``|
+
+
+
 
 
 # (0) Others
