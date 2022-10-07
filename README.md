@@ -103,7 +103,7 @@
 
 | No.     | Name             | Num solutions| Descriptions     | Functions|
 | --------| -----------------| -------------| -----------------| -------------|
-| 703     |  Kth Largest Element in a Stream | 1   | | ``|
+| 703     |  Kth Largest Element in a Stream | 1   | MinHeap, pop the smallest value -> return minHeap[0] | `heapq.heapify()`|
 
 
 
