@@ -106,7 +106,11 @@
 | 703     |  Kth Largest Element in a Stream | 1   | MinHeap, pop the smallest value -> return minHeap[0] | `heapq.heapify()`|
 
 
+`heapq.heappop()`: Pop and return the smallest item from the heap
 
+`heapq.heappush()`: Push the value item onto the heap
+
+`heapq.heapify(x)`: Transform list x into a heap, in-place, in linear time.
 
 
 # (0) Others
