@@ -5,5 +5,5 @@ class Solution:
         while n:
             num = n // 5 # Floor division
             res += num
-            n = n//5
+            n = n//5 
         return res
