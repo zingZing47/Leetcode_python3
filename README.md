@@ -121,6 +121,7 @@
 | 45           | Jump Game II      | 1            |Greedy| - |
 | 172            | Factorial Trailing Zeroes    | 1    |the number of factorial trailing 0 = //5| - |
 | 692            | Top K Frequent Words   | 1    |Samilar to 347| `collections.Counter()`, `sorted(list, key=lamda x:(-cnt[x], x))[:k]` |
+| 208            | Implement Trie (Prefix Tree)   | 1    |Trie| `TrieNode()` |
 
 
 
