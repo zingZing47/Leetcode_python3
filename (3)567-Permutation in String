@@ -6,7 +6,7 @@ class Solution:
         s1Count, s2Count = [0]* 26, [0]* 26
         for i in range(len(s1)):
             s1Count[ord(s1[i]) - ord('a')] += 1
-            # Go through the same length of s2
+            # Go through the same length of s2 
             s2Count[ord(s2[i]) - ord('a')] += 1
         
         # retrun true when matches == 26
@@ -35,7 +35,7 @@ class Solution:
                 matches += 1
             elif s1Count[index] - 1 == s2Count[index]:
                 matches -= 1
-            l += 1
+            l += 1 
         return matches == 26
 
             
