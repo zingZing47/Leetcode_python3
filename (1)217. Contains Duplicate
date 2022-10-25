@@ -4,7 +4,7 @@ class Solution:
     ## Use 2 pointers to compare each 2 values of the list
 
 
-    # Solution 2: Time o(nlogn) Space o(n)
+    # Solution 2: Time o(nlogn) Space o(n) 
     ## Sort list and compare the values next to each other
         # nums.sort()
 
