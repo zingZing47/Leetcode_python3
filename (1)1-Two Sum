@@ -1,0 +1,16 @@
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        prehash = {}
+        res = []
+        
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in prehash:
+                return[prehash[diff],i] 
+            else:
+                prehash[n] = i
