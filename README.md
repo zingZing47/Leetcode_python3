@@ -12,7 +12,7 @@
 | 271           | Encode and Decode Strings| 1 | Record the length of each string  | str(len(i)) + "#" + i|
 | 347           | Top K Frequent Elements| 1 | HashMap+Array  | `get()`, `items()`|
 | 659           | Split Array into Consecutive Subsequences| 1 | Hashmap | `collections.Counter()` or `defaultdict(int)`|
-
+ 
 
 
 # (2) Two pointers
