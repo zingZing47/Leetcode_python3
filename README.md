@@ -13,7 +13,7 @@
 | 347           | Top K Frequent Elements| 1 | HashMap+Array  | `get()`, `items()`|
 | 659           | Split Array into Consecutive Subsequences| 1 | Hashmap | `collections.Counter()` or `defaultdict(int)`|
  
-
+Iterate the array in decending order: for i in range(len(freq)-1, 0, -1):
 
 # (2) Two pointers
 
