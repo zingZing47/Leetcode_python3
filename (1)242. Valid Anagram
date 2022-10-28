@@ -3,7 +3,7 @@ class Solution:
         # Solution 1: Hashmap, Time o(s+t) Space o(s+t)
             if len(s) != len(t):
                 return False
-            
+             
             # Build hashmap
             countS, countT = {}, {}
 
