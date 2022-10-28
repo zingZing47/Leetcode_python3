@@ -4,7 +4,7 @@ class Solution:
         # defaultdict is created with the values that are list
         # defaultdict never raises a KeyError
         res = defaultdict (list)
-
+ 
         for s in strs:
         # Create a list for each strings to count the frequency of 26 characters
             count = [0] * 26
