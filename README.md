@@ -2,6 +2,7 @@
 
 | No.           | Name             | Num solutions| Descriptions| Functions|
 | ------------- | -----------------| -------------| -----------------| -------------|
+| 1           | Two Sum| 1 | HashMap  | `enumerate()`,`preMap = {}`|
 | 36           | Valid Sudoku| 1 | DefaultDictionary  | `defaultdict()`, `board[r][c]`|
 | 49           | Group Anagram| 1 | DefaultDictionary  | `defaultdict()`, `tuple()`,`count = [0] * 26`|
 | 128           |Longest Consecutive Sequence| 1 | set, length = y-n  | `set()`|
