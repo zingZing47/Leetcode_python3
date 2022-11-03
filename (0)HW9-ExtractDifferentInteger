@@ -7,4 +7,4 @@ for i in ipt:
         continue
     else:
         num.append(i)
-print(''.join(num))
+print(''.join(num)) 
